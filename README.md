@@ -34,12 +34,12 @@ Control your mouse cursor and trigger system actions using hand gestures capture
 ### Python Dependencies
 
 ```
-opencv-python
-numpy
-torch
-pyautogui
-pygame
-pygetwindow
+opencv-python==5.0.0.93
+numpy==2.5.1
+torch==2.14.0+cu130
+pyautogui==0.9.54
+pygame==2.6.1
+PyGetWindow==0.0.9
 ```
 
 ### MediaPipePyTorch
@@ -58,11 +58,8 @@ You'll also need the pretrained model weights and anchors, placed inside `MediaP
 
 ## Setup
 
-1. Clone this repository  (`MediaPipePyTorch` repository is already clon![img.png](img.png)ed in the MediaPipePyTorch folder) 
-2. Install dependencies:
-   ```bash
-   pip install opencv-python numpy torch pyautogui pygame pygetwindow
-   ```
+1. Clone this repository  (`MediaPipePyTorch` repository is already cloned in the MediaPipePyTorch folder) 
+2. Install dependencies
 3. Add an `music.mp3` audio file to the project's root folder (played on the rock gesture).
 4. Run the script:
    ```bash
